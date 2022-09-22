@@ -1,19 +1,21 @@
-title: Projects
+<--title: Projetos-->
 ---
 body:
 
+<h1>Projetos</h1>
+
 O que estamos fazendo?
 
-<u>Github</u><p>
+<u><b>Github</b></u><p>
 Acesse o nosso github e ajude a contribuir com projetos da nossa comunidade.
 
-<u>Youtube</u><p>
+<u><b>Youtube</b></u><p>
 Nosso canal no youtube sobre meetups, entrevistas e videos da comunidade. Acesse por aqui.
 
-<u>Eventos</u><p>
+<u><b>Eventos</b></u><p>
 Buscamos realizar encontros e eventos em todo estado do Rio de Janeiro.
 Se na sua cidade ainda não rolou, que tal levantar esta bandeira?
 
-<u>Stack Carioca</u><p>
+<u><b>Stack Carioca</b></u><p>
 Stack carioca é um projeto para listar ferramentas, módulos e aplicações com
 código aberto feitas por pessoas da comunidade Python do Rio de Janeiro.
