@@ -4,15 +4,16 @@
 <title>{% block title %}Welcome{% endblock %} — site-python-rio</title>
 <body>
   <header>
-    <h1>site-python-rio</h1>
+    <h1>Python Rio de Janeiro</h1>
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
+          %}><a href="{{ '/'|url }}">HOME</a></li>
         {% for href, title in [
-          ['/blog', 'Blog'],
-          ['/projects', 'Projects'],
-          ['/about', 'About']
+          ['/sobre', 'SOBRE'],
+          ['/projetos', 'PROJETOS'],
+          ['/agenda', 'AGENDA'],
+          ['/contato', 'CONTATO'],
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>
